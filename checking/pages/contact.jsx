@@ -79,7 +79,7 @@ function Contact() {
 
 <div className={styles.inputbox}>
 
-<input type="text" required="required"/>
+<textarea  required="required"/>
   <span>Messgae</span>
 </div>
 
