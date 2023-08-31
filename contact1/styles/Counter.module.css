@@ -1,0 +1,461 @@
+.container {
+    width: 85vw;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 8rem;
+}
+
+.image {
+    width: 21.2rem;
+    height: 33.1rem;
+}
+
+.aboutSection {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.aboutHead {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    width: 30rem;
+    margin-top: 0.5rem;
+}
+
+.mobAboutHead {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    width: 30rem;
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.mobAboutPic {
+    display: none;
+}
+
+.aboutText {
+    margin-top: 2rem;
+    width: 30rem;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.years {
+    display: inline-block;
+    width: 15rem;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.property {
+    display: inline-block;
+    width: 15rem;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 1rem;
+}
+
+.postfix {
+    font-size: 1.9rem;
+}
+
+.realtor {
+    display: inline-block;
+    width: 15rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.aboutPic {
+    width: 35rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: smaller;
+        width: 58%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 11rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 79%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 88%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 10rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: -2rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -6rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 660px) and (min-width: 600px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 93%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:870px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        margin-bottom: 2rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 93%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 800px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        margin-bottom: 2rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 93%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        margin-bottom: 2rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 93%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        margin-bottom: 2rem;
+    }
+    .text {
+        font-size: 3.3rem;
+        margin-left: 9rem;
+    }
+    .aboutText {
+        font-size: larger;
+        width: 93%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    .aboutHead {
+        display: none;
+    }
+    .container {
+        margin-left: -8rem;
+        justify-content: center;
+    }
+}

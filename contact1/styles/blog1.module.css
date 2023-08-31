@@ -1,0 +1,83 @@
+    .Blog {
+        background: url("../public/house.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .section29 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10rem;
+        color: white;
+        font-size: 7rem;
+    }
+    
+    .containers {
+        width: 100vw;
+    }
+    
+    .box {
+        margin-left: -6rem;
+    }
+    
+    .text2 {
+        margin-left: -1rem;
+    }
+    
+    .text3 {
+        margin-left: -1rem;
+    }
+    
+    .container3 {
+        justify-content: flex-start;
+    }
+    
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
+    }
+    
+    @media screen and (min-width:800px) and (max-width:870px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (min-width: 660px) and (max-width: 800px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (max-width: 660px) and (min-width: 600px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (max-width: 660px) and (min-width: 600px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (max-width: 600px) and (min-width: 500px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (min-width: 400px) and (max-width: 500px) {
+        .section29 {
+            font-size: 10rem;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .section29 {
+            font-size: 6rem;
+        }
+    }
