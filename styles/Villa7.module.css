@@ -1,0 +1,43 @@
+    .ptHead7 {
+        align-items: center;
+        text-align: center;
+        margin-top: -8rem;
+    }
+    
+    .para {
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .img09 {
+        width: 22rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .paras {
+        margin-top: 1rem;
+        margin-left: 4.5rem;
+    }
+    
+    .sectionss100 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        gap: 3rem;
+    }
+    
+    .pics9900 {
+        width: 22rem;
+    }
+    
+    .pics11009 {
+        margin-left: 5rem;
+        cursor: pointer;
+    }
+    
+    .pics99001 {
+        width: 19rem;
+    }
