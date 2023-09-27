@@ -1,7 +1,7 @@
 import React from "react";
 import Styles1 from "../styles/blog1.module.css";
-import Search from "../Components2/blogss";
-import Events from "../Components2/Events";
+import Search from "../BLOG Components/blogss";
+import Events from "../BLOG Components/Events";
 
 function Blog1() {
     return (
