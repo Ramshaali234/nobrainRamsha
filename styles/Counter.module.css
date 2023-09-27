@@ -88,9 +88,6 @@
     .image {
         display: none;
     }
-    .container {
-        margin-left: -4rem;
-    }
     .counterContainer {
         margin-top: 2rem;
         display: flex;

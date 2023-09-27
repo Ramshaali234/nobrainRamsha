@@ -5,7 +5,9 @@ import Styless from "../styles/Video.module.css";
 
 
 
-function Video(){
+const Video=()=>{
+
+  
 
   let x=1;
 const videoControl =()=>{
