@@ -1,6 +1,6 @@
 
 import React from "react";
-import Styles3 from "../styles/Events.module.css";
+import Styles3 from "../styles/Blogpage/Events.module.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
 const  Events=()=> {

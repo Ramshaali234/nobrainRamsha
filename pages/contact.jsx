@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
 
+import TextField from '@mui/material/TextField';
+import Box from '@mui/material/TextField';
 
 function Contact() {
  
@@ -57,30 +59,35 @@ function Contact() {
     </div>
 
   </div>
+  
   <div className={styles.contactinput}>
 <div className={styles.inputbox}>
-  <input type="text" required="required"/>
-  <span >Firstname</span>
+  <input className={styles.forms}type="text" required="required"/>
+  <span className={styles.names}>Firstname</span>
 </div>
 
 
 <div className={styles.inputbox}>
-  <input type="text" required="required"/>
-  <span className="">Lastname</span>
+  <input className={styles.forms}type="text" required="required"/>
+  <span className={styles.names}>Lastname</span>
 </div>
-
 
 
 <div className={styles.inputbox}>
-  <input type="text" required="required"/>
-  <span >Email</span>
+  <input className={styles.forms}type="text" required="required"/>
+  <span className={styles.names}>Email</span>
 </div>
+
+
+
+
+
 
 
 <div className={styles.inputbox}>
 
 <textarea  required="required"/>
-  <span>Messgae</span>
+  <span className={styles.names1}>Messges</span>
 </div>
 
 
@@ -91,9 +98,12 @@ function Contact() {
  </div>
   </div>
 
-</div>
 
 </div>
+
+
+ </div>
+
  
 
 

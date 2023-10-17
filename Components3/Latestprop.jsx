@@ -24,12 +24,7 @@ function Latestprop(){
         
 
 <div className={designsd.pic3}>
-<img
-          src="/bed-icon.png"
-          alt="About1"
-          className={designsd.imagess}
-          
-        />
+
 
      
 </div>
@@ -275,12 +270,7 @@ CEO & Founder
 <div className={designsd.container050}>
 
 
-<img
-          src="/3.png"
-          alt="About2"
-          className={designsd.imagess00}
-          
-        />
+
 
 <p className={designsd.container01} >
 Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 

@@ -1,5 +1,5 @@
 import React from "react";
-import Styles2 from "../styles/blogss.module.css";
+import Styles2 from "../styles/Blogpage/blogss.module.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
  const Search=() => {
