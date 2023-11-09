@@ -1,0 +1,96 @@
+    .agent1 {
+        height: 89vh;
+        background: rgba(0, 0, 0, 0.8) url("../public/client.jpg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 4rem;
+        background-blend-mode: darken;
+        width: 100vw;
+        position: absolute;
+    }
+    
+    .agent2 {
+        max-width: 800px;
+        text-align: center;
+    }
+    
+    .image {
+        font-size: 40px;
+        font-weight: 500;
+        color: whitesmoke;
+        margin-left: 27rem;
+        margin-top: 3rem;
+    }
+    
+    .para {
+        color: whitesmoke;
+        margin-top: 1rem;
+        margin-left: 29rem;
+    }
+    
+    .container02 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container03 {
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        border: 1px solid white;
+        margin-left: 1rem;
+        margin-top: 6rem;
+        width: 18rem;
+        height: 12rem;
+    }
+    
+    .container052 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .imagess00 {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    .container050 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container01 {
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+    }
+    
+    .container000 {
+        justify-content: center;
+        color: white;
+        margin-left: 6rem;
+    }
+    
+    .container09 {
+        justify-content: center;
+        color: white;
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+    
+    @media screen and (max-width:600px) {
+        .image {
+            margin-left: 0rem;
+        }
+        .para {
+            margin-left: 0rem;
+        }
+        .container03 {
+            height: 10rem;
+            margin-top: 1rem;
+            margin-left: 2rem;
+            width: 16rem;
+        }
+    }

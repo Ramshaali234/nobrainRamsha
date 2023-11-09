@@ -19,7 +19,7 @@ function Contact() {
   </div>
 
 
-  <div className={styles.contactcontainers}>
+<div className={styles.contactcontainers}>
  
   <div className={styles.containerhead}>
  
@@ -29,7 +29,7 @@ function Contact() {
       </div>
       <div className={styles.contacttext}>
         <h3 className={styles.contacttexts}>Address</h3>
-        <p className={styles.contactsparagraph}>198 West 21th <br/>Street, Suite 721 New York<br/> NY 10016</p>
+        <p className={styles.contactssite}>Islampura,Lahore</p>
       </div>
     </div>
 
@@ -40,7 +40,7 @@ function Contact() {
       </div>
       <div className={styles.contacttext}>
         <h3 className={styles.contacttexts}>PHONE </h3>
-        <p className={styles.contactsparagraph}>507-475-0094</p>
+        <a href="tel:+507-475-00094" className={styles.contactssite}>+507-475-0094</a>
       </div>
     </div>
 
@@ -53,11 +53,13 @@ function Contact() {
       </div>
       <div className={styles.contacttext}>
         <h3 className={styles.contacttexts}>Email</h3>
-        <p className={styles.contactsparagraph}>@yoursite.com</p>
+        <a href ="mailto:@yoursite.com"className={styles.contactssite}>@yoursite.com</a>
       </div>
     </div>
 
   </div>
+ 
+ 
   
   <div className={styles.contactinput}>
 <div className={styles.inputbox}>
@@ -99,15 +101,15 @@ function Contact() {
 
 
 </div>
+</div>
 
 
- </div>
+
+
+
 
  
-
-
-
-</>
+ </>
     )
 }
 
