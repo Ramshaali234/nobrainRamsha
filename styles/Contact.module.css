@@ -1,405 +1,308 @@
+.contact {
+    background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background-blend-mode: darken;
+}
+
+.content {
+    width: 100vw;
+    text-align: center;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+
+.contactpara {
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contactcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+
+.box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contachhead {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+}
+
+.headings {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputbox input {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1.2px solid #333;
+    outline: none;
+    background: transparent;
+    width: 17rem;
+    height: 40px;
+}
+
+.inputbox textarea {
+    width: 17rem;
+    height: 100px;
+    padding-left: 3px;
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1.2px solid #333;
+    outline: none;
+    resize: none;
+    background: transparent;
+    border-radius: 3px;
+}
+
+.label {
+    position: absolute;
+    top: 31%;
+    left: 10px;
+    transform: translateY(-6%);
+    font-size: 16px;
+    color: pink;
+    padding: 0 3px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputbox input:focus~.label,
+.inputbox input:valid~.label {
+    top: 0;
+    font-size: 13px;
+    background: black;
+    background-blend-mode: lighten;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.inputbox textarea:focus~.label,
+.inputbox textarea:valid~.label {
+    top: 0;
+    font-size: 13px;
+    background: black;
+    background-blend-mode: lighten;
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+}
+
+.btn {
+    width: 9rem;
+    height: 3rem;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 350px) {
+    .contact {
+        padding: 50px;
+    }
     .contactcontainer {
-        background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        min-height: 100vh;
-        width: 100vw;
-        background-blend-mode: darken;
     }
-    
-    .contacttitle {
-        width: 100vw;
-        text-align: center;
-        margin-top: 3rem;
-    }
-    
-    .titles {
-        font-size: 45px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
-    
-    .contactparagraph {
-        color: whitesmoke;
-        font-size: 3rem;
-    }
-    
-    .contactcontainers {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 37px;
-        width: 60%;
-        margin-left: 17rem;
-    }
-    
-    .containerhead {
+    .contactinfo {
         width: 100%;
-        display: flex;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .contact {
+        padding: 50px;
+    }
+    .contactcontainer {
         flex-direction: column;
-        margin-left: 0rem;
-        margin-top: -2rem;
-        gap: 4rem
     }
-    
-    .contactbox {
-        display: flex;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .contact {
+        padding: 50px;
+    }
+    .contactcontainer {
         flex-direction: column;
     }
-    
-    .contacttext {
-        font-size: 17px;
-        color: whitesmoke;
-        font-weight: 300;
-        margin-left: -2rem;
-        margin-top: 1rem;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    .contacticons {
-        width: 4rem;
-        height: 60px;
-        background: whitesmoke;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        font-size: 22PX;
-        margin-left: -2rem;
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    .contact {
+        padding: 50px;
     }
-    
-    .contacttexts {
-        font-weight: 500;
-        color: whitesmoke;
+    .contactcontainer {
+        flex-direction: column;
     }
-    
-    .contactssite {
-        color: whitesmoke;
-        font-size: 17px;
-        color: whitesmoke;
-        font-weight: 300;
-        margin-left: 5rem;
-        margin-top: 0rem;
-        text-decoration: none;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    .contactinput {
-        margin-top: 2rem;
-        margin-right: 8rem;
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    .contact {
+        padding: 50px;
     }
-    
-    .inputbox {
-        position: relative;
-        margin: 42px 0;
+    .contactcontainer {
+        flex-direction: column;
     }
-    
-    .forms {
-        width: 17rem;
-        height: 40px;
-        font-size: 16px;
-        color: white;
-        padding: 0 3px;
-        background: transparent;
-        outline: none;
-        border: 1.2px solid white;
-        border-radius: 3px;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    .contacttexts {
-        margin-left: 6rem;
-        margin-top: -4rem;
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .contact {
+        padding: 50px;
     }
-    
-    .names {
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        transform: translateY(-50%);
-        font-size: 16px;
-        color: white;
-        padding: 0 3px;
-        pointer-events: none;
-        transition: .5s;
+    .contactcontainer {
+        flex-direction: column;
     }
-    
-    .inputbox .forms:focus~.names,
-    .inputbox .forms:valid~.names {
-        top: 0;
-        font-size: 13px;
-        background: black;
-        background-blend-mode: lighten;
-        border-left: 2px solid wheat;
-        border-right: 2px solid wheat;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    .inputbox textarea {
-        height: 100px;
-        width: 17rem;
-        font-size: 16px;
-        color: white;
-        padding-left: 3px;
-        padding-top: 10px;
-        background: transparent;
-        outline: none;
-        border: 1.2px solid white;
-        border-radius: 3px;
-        resize: none;
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .contact {
+        padding: 50px;
     }
-    
-    .inputbox .names1 {
-        position: absolute;
-        top: 20%;
-        left: 10px;
-        transform: translateY(-50%);
-        font-size: 16px;
-        color: beige;
-        padding: 0 3px;
-        pointer-events: none;
-        transition: .5s;
+    .contactcontainer {
+        flex-direction: row;
     }
-    
-    .inputbox textarea:focus~.names1,
-    .inputbox textarea:valid~.names1 {
-        top: 0;
-        font-size: 13px;
-        background: black;
-        background-blend-mode: lighten;
-        border-left: 2px solid wheat;
-        border-right: 2px solid wheat;
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    .submit {
-        display: flex;
-        justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+    .contact {
+        padding: 50px;
     }
-    
-    .btn {
-        width: 9rem;
-        height: 3rem;
-        font-size: 18px;
-        font-weight: 700;
-        transition: all 0.5s ease-in-out;
-        border: none;
-        cursor: pointer;
-        margin-top: 0.5rem;
-        color: aliceblue;
-        background-color: black;
-        font-family: "Nunito Sans", sans-serif;
-        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+    .contactcontainer {
+        flex-direction: row;
     }
-    
-    @media screen and (min-width:1000px) and (max-width:1100px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-right: 4rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-right: 4rem;
-        }
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    @media screen and (min-width:900px) and (max-width:1000px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-right: 4rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-right: 4rem;
-        }
+}
+
+@media screen and (min-width: 850px) and (max-width: 950px) {
+    .contact {
+        padding: 50px;
     }
-    
-    @media screen and (min-width:870px) and (max-width:900px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-right: 4rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-right: 4rem;
-        }
+    .contactcontainer {
+        flex-direction: row;
     }
-    
-    @media screen and (min-width:800px) and (max-width:870px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-right: 4rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-right: 4rem;
-        }
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    @media screen and (min-width: 660px) and (max-width: 800px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-right: 2rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-right: 2rem;
-        }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+    .contact {
+        padding: 50px;
     }
-    
-    @media screen and (max-width: 660px) and (min-width: 600px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-left: 7rem;
-            margin-top: -27rem;
-            gap: 1rem
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-top: 19rem;
-            margin-right: 4rem;
-            margin-left: -14rem;
-        }
+    .contactcontainer {
+        flex-direction: row;
     }
-    
-    @media screen and (max-width: 600px) and (min-width: 500px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-left: 7rem;
-            margin-top: -27rem;
-            gap: 1rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-top: 19rem;
-            margin-right: 4rem;
-            margin-left: -14rem;
-        }
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
     }
-    
-    @media screen and (min-width: 401px) and (max-width: 500px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-left: 7rem;
-            margin-top: -27rem;
-            gap: 1rem;
-        }
-        .contactsparagraph {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-top: 19rem;
-            margin-right: 4rem;
-            margin-left: -14rem;
-        }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+    .contact {
+        padding: 50px;
     }
-    
-    @media screen and (max-width: 400px) {
-        .contactcontainer {
-            width: 100vw;
-        }
-        .containerhead {
-            justify-content: center;
-            margin-left: 7rem;
-            margin-top: -27rem;
-            gap: 1rem
-        }
-        .contactssite {
-            margin-left: 6rem;
-        }
-        .contacttexts {
-            margin-left: 6rem;
-        }
-        .contactcontainers {
-            margin-left: 0rem;
-        }
-        .contactinput {
-            margin-top: 19rem;
-            margin-right: 4rem;
-            margin-left: -14rem;
-        }
+    .contactcontainer {
+        flex-direction: row;
     }
+    .contactinfo {
+        width: 100%;
+        margin-left: 1rem;
+    }
+}

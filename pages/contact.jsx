@@ -1,117 +1,157 @@
 import React from "react";
-import styles from "../styles/Contact.module.css";
+import Style from "../styles/Contact.module.css";
+import { ST } from "next/dist/shared/lib/utils";
 
 
 
 function Contact() {
- 
-
     return (
       <>
- 
+<div className={Style.contact}>
+    <div className={Style.content}>
+        <h2 className={Style.heading}>
+            Contact Us 
+        </h2>
+
+        <p className={Style.contactpara}>
+        We're open for any suggestion  or just to have a chat
+        </p>
+    </div>
+
+<div className={Style.contactcontainer}>
+    <div className={Style.contactinfo}>
+        <div className={Style.box}>
+            <div className={Style.icon}>
+            <img src="/location.png" className={Style.contactimg}/>
+            </div>
+
+
+            <div className={Style.text}>
+                <h3 className={Style.contachhead}>
+                    Address
+                </h3>
+
+                <p className={Style.contactpara}>
+                  Islampura,lahore
+                </p>
+            </div>
+        </div>
+
+
+        <div className={Style.box}>
+            <div className={Style.icon}>
+            <img src="/email2.png" className={Style.contactimg}/>
+          
+            </div>
+
+
+            <div className={Style.text}>
+                <h3 className={Style.contachhead}>
+                   Email
+                </h3>
+
+                <a href ="mailto:@yoursite.com"className={Style.contactpara}>@yoursite.com</a>
+            </div>
+        </div>
 
 
 
-<div className={styles.contactcontainer}>
-  <div className={styles.contacttitle}>
-    <h2 className={styles.titles}>Contact Us</h2>
-    <p className={styles.contactparagraph}>We're open for any suggestion  or just to have a chat</p>
-  </div>
+        <div className={Style.box}>
+            <div className={Style.icon}>
+            <img src="/phone.png" className={Style.contactimg}/>
+            </div>
 
 
-<div className={styles.contactcontainers}>
- 
-  <div className={styles.containerhead}>
- 
-    <div className={styles.contactbox}>
-      <div className={styles.contacticons}>
-        <img src="/location.png" alt="noimage" className={styles.contactimg}/>
-      </div>
-      <div className={styles.contacttext}>
-        <h3 className={styles.contacttexts}>Address</h3>
-        <p className={styles.contactssite}>Islampura,Lahore</p>
-      </div>
+            <div className={Style.text}>
+                <h3 className={Style.contachhead}>
+                    Phone
+                </h3>
+
+                <a href="tel:+507-475-00094" className={Style.contactpara}>+507-475-0094</a>
+            </div>
+        </div>
+
+
+
+        <div className={Style.box}>
+            <div className={Style.icon}>
+            <img src="/email2.png" className={Style.contactimg}/>
+            </div>
+
+
+            <div className={Style.text}>
+                <h3 className={Style.contachhead}>
+                    Address
+                </h3>
+
+                <p className={Style.contactpara}>
+                Islampura,lahore
+                </p>
+            </div>
+        </div>
+
+
     </div>
 
 
-    <div className={styles.contactbox}>
-      <div className={styles.contacticons}>
-      <img src="/phone.png" alt="noimage" className={styles.contactimg}/>
-      </div>
-      <div className={styles.contacttext}>
-        <h3 className={styles.contacttexts}>PHONE </h3>
-        <a href="tel:+507-475-00094" className={styles.contactssite}>+507-475-0094</a>
-      </div>
-    </div>
+<div className={Style.contactform}>
+    <form  className={Style.form}>
+        <h2 className={Style.headings}>
+            Send Message
+        </h2>
+
+        <div className={Style.inputbox}>
+            <input type="text"name="" required="required"/>
+                <span className={Style.label}>
+                    FullName
+                </span>
+        </div>
 
 
 
+        <div className={Style.inputbox}>
+            <input type="text"name="" required="required"/>
+                <span className={Style.label}>
+                    LastName
+                </span>
+        </div>
 
-    <div className={styles.contactbox}>
-      <div className={styles.contacticons}>
-      <img src="/email2.png" className={styles.contactimg}/>
-      </div>
-      <div className={styles.contacttext}>
-        <h3 className={styles.contacttexts}>Email</h3>
-        <a href ="mailto:@yoursite.com"className={styles.contactssite}>@yoursite.com</a>
-      </div>
-    </div>
 
-  </div>
- 
- 
-  
-  <div className={styles.contactinput}>
-<div className={styles.inputbox}>
-  <input className={styles.forms}type="text" required="required"/>
-  <span className={styles.names}>Firstname</span>
+
+        <div className={Style.inputbox}>
+            <input type="text"name="" required="required"/>
+                <span className={Style.label}>
+                    Email
+                </span>
+        </div>
+
+
+        <div className={Style.inputbox}>
+            <textarea required ="required"/>
+                <span className={Style.label}>
+                Message
+                </span>
+        </div>
+
+
+
+        <div className={Style.inputbox}>
+            <button className={Style.btn}>
+                Submit
+            </button>
+                
+        </div>
+
+    </form>
+</div>
+
 </div>
 
 
-<div className={styles.inputbox}>
-  <input className={styles.forms}type="text" required="required"/>
-  <span className={styles.names}>Lastname</span>
 </div>
-
-
-<div className={styles.inputbox}>
-  <input className={styles.forms}type="text" required="required"/>
-  <span className={styles.names}>Email</span>
-</div>
-
-
-
-
-
-
-
-<div className={styles.inputbox}>
-
-<textarea  required="required"/>
-  <span className={styles.names1}>Messges</span>
-</div>
-
-
- <div className={styles.submit}>
-  <button className={styles.btn}>
-    Submit
-  </button>
- </div>
-  </div>
-
-
-</div>
-</div>
-
-
-
-
-
-
- 
- </>
+      
+      </>
     )
 }
 
 export default Contact;
-

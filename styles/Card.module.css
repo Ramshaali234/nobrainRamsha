@@ -197,24 +197,68 @@
 @media screen and (min-width: 350px) and (max-width: 400px) {
     .card4 {
         flex-direction: column;
-        margin-left: 2.2rem;
+        margin-left: 3.5rem;
     }
 }
-@media screen and (min-width: 400px) and (max-width: 450px){
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
     .card4 {
         flex-direction: column;
-        margin-left: 2.2rem;
+        margin-left: 4.9rem;
     }
 }
-@media screen and (min-width: 450px) and (max-width: 500px){
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
     .card4 {
         flex-direction: column;
-        margin-left: 2.2rem;
+        margin-left: 5.9rem;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 550px){
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
     .card4 {
         flex-direction: column;
-        margin-left: 2.2rem;
+        margin-left: 7.9rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .card4 {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .card4 {
+        flex-wrap: wrap;
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+    .card4 {
+        flex-wrap: wrap;
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 950px) {
+    .card4 {
+        flex-wrap: wrap;
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+    .card4 {
+        flex-wrap: wrap;
+        margin-left: 9rem;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+    .card4 {
+        flex-wrap: wrap;
+        margin-left: 10rem;
     }
 }

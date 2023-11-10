@@ -2,6 +2,8 @@ import React from "react";
 import style from "../styles/Wishlist.module.css";
 import Card from "../Components4/Card";
 import Explore  from "@/Components5/Explore";
+import Cards2 from "@/Components5/Cards2";
+
 
 function Wishlist() {
   return (
@@ -27,6 +29,7 @@ function Wishlist() {
 
       <Card/>
       <Explore/>
+      <Cards2/>
       </>
   );
 }
