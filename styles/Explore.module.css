@@ -11,6 +11,11 @@
     height: 19.1rem;
 }
 
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
 .buttons {
     margin-top: 2rem;
     width: 10rem;
@@ -21,6 +26,11 @@
     color: aliceblue;
     cursor: pointer;
     margin-left: 5rem;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .searchhead {
@@ -45,14 +55,10 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 18rem;
+        width: 12rem;
     }
     .searchhead {
         font-size: large;
-    }
-    .buttons {
-        margin-left: 1rem;
     }
 }
 
@@ -61,14 +67,10 @@
         display: none;
     }
     .searchText {
-        margin-left: 3rem;
-        width: 18rem;
+        width: 22rem;
     }
     .searchhead {
-        font-size: larger;
-    }
-    .buttons {
-        margin-left: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -77,8 +79,7 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 22rem;
+        width: 18rem;
     }
     .searchhead {
         font-size: 1.5rem;
@@ -93,15 +94,11 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 25rem;
+        width: 19rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
 }
 
@@ -110,15 +107,11 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 22rem;
     }
     .searchhead {
         font-size: 2.5rem;
         margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
     }
 }
 
@@ -127,15 +120,11 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 27rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 7rem;
     }
 }
 
@@ -144,15 +133,11 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 31rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 8rem;
     }
 }
 
@@ -161,15 +146,12 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 41rem;
+        font-size: 1.5rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 10rem;
     }
 }
 
@@ -178,15 +160,12 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 48rem;
+        font-size: 2.5rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 12rem;
     }
 }
 
@@ -195,15 +174,12 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 50rem;
+        font-size: 2.5rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 14rem;
     }
 }
 
@@ -212,14 +188,11 @@
         display: none;
     }
     .searchText {
-        margin-left: 2rem;
-        width: 29rem;
+        width: 55rem;
+        font-size: 2.5rem;
     }
     .searchhead {
         font-size: 2.5rem;
-        margin-left: 4rem;
-    }
-    .buttons {
-        margin-left: 1rem;
+        margin-left: 15rem;
     }
 }

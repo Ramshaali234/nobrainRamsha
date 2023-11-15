@@ -65,7 +65,8 @@ const Explore =()=>{
           className={style.images}
           variants={childVariant}
         />
-        <div className={style.searchsection} variants={childVariant}>
+           <motion.div className={style.sections} variants={childVariant}>
+        <motion.div className={style.searchsection} variants={childVariant}>
          
           <motion.div className={style.searchhead} variants={childVariant}>
           Explore your home 
@@ -82,7 +83,8 @@ const Explore =()=>{
          </button>
             
       </div>
-        </div>
+        </motion.div>
+        </motion.div>
       </motion.div>
     
    
