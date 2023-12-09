@@ -1,7 +1,7 @@
 import React from "react";
 import Styles4 from "../styles/Properties1.module.css";
 import Searchbar from "../Components3/Searchbar";
-import Cards from "../Components3/Cards";
+import Cards from "../Components3/Card";
 import Latestprop1 from "../components4/Latestprop1"
 
 
