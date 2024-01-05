@@ -1,8 +1,9 @@
 import React from "react";
 import Styles4 from "../styles/Properties1.module.css";
 import Searchbar from "../Components3/Searchbar";
-import Cards from "../Components3/Card";
-import Latestprop1 from "../components4/Latestprop1"
+import Latestprop1 from "../Components3/Latestprop1";
+
+import Card0 from "@/components3/Card0";
 
 
 function Properties1() {
@@ -29,7 +30,7 @@ Properties
 
 <Searchbar/>
 
-<Cards/>
+<Card0/>
 
 
 <Latestprop1/>

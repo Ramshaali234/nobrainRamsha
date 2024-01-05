@@ -1,8 +1,8 @@
 import React from "react";
-import style from "../styles/Wishlist.module.css";
-import Card from "../Components4/Card";
-import Explore  from "@/Components5/Explore";
-import Cards2 from "@/Components5/Cards2";
+import style from "@/styles/Wishlistpage/Wishlist.module.css";
+import Cards3 from "@/Component/Wishlist/Cards3"
+import Explore  from "@/Component/Wishlist/Explore";
+
 
 
 function Wishlist() {
@@ -27,9 +27,9 @@ function Wishlist() {
 
 
 
-      <Card/>
+      
       <Explore/>
-      <Cards2/>
+    <Cards3/>
       </>
   );
 }

@@ -1,0 +1,218 @@
+.containers {
+    width: 85vw;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    width: 30.2rem;
+    height: 19.1rem;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: #00D4FF;
+    border: skyblue;
+    font-size: large;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.searchhead {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.searchText {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.images {
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 350px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 18rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: large;
+    }
+    .buttons {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 21rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: 1.5rem;
+    }
+    .buttons {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 23rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: 1.5rem;
+    }
+    .buttons {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 26rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 28.5rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: larger;
+        margin-left: 9rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 31rem;
+        margin-left: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 35rem;
+        margin-left: 4.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 41rem;
+        font-size: 1.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 950px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 48rem;
+        font-size: 2.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 50rem;
+        font-size: 2.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 14rem;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1150px) {
+    .images {
+        display: none;
+    }
+    .searchText {
+        width: 55rem;
+        font-size: 2.5rem;
+    }
+    .searchhead {
+        font-size: 2.5rem;
+        margin-left: 15rem;
+    }
+}
