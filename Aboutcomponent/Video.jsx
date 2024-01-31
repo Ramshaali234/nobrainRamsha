@@ -73,7 +73,7 @@ return(
   initial={"hidden"}
   animate={animeflag ? "animate" : "hidden"}
  >
-        <motion.video src="/realestate.mp4"variants={childVariant} className={`${Styles.videowidth} video` }  />
+        <motion.video src="/realestate.mp4"variants={childVariant} classNme={`${Styles.videowidth} video`  }  />
 
 
 <div className={Styles.play} onClick={()=>{

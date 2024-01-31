@@ -11,3 +11,7 @@ body {
 .swiper {
     height: 22rem !important;
 }
+
+.image-gallery-svg {
+    display: none;
+}
