@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.menus {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: orange;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    line-height: normal;
+}
+
+.images {
+    width: 480px;
+    height: 480px;
+    padding: 20px 0px 0px 50px;
+}
+
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 5px 0;
+}
+
+.container {
+    width: 85vw;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 8rem;
+}
+
+.image {
+    width: 21.2rem;
+    height: 18.1rem;
+    border-top-left-radius: 80px 80px;
+}
+
+.aboutSection {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.aboutHead {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    width: 30rem;
+    margin-top: 0.5rem;
+}
+
+.aboutText {
+    margin-top: 2rem;
+    width: 30rem;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 20px;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.images {
+    width: 3rem;
+    height: 4rem;
+    gap: 2rem;
+}
+
+.serpara {
+    width: 18rem;
+}
+
+.OurServices {
+    padding: 30px;
+    border-top-right-radius: 80px 80px;
+    border: 1px solid #ccc;
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+}
+
+.headings {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.imagess {
+    width: 500px;
+    padding-left: 20px;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputbox input {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1.2px solid #333;
+    outline: none;
+    background: transparent;
+    width: 17rem;
+    height: 40px;
+}
+
+.inputbox textarea {
+    width: 17rem;
+    height: 100px;
+    padding-left: 3px;
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1.2px solid #333;
+    outline: none;
+    resize: none;
+    background: transparent;
+    border-radius: 3px;
+}
+
+.label {
+    position: absolute;
+    top: 31%;
+    left: 10px;
+    transform: translateY(-6%);
+    font-size: 16px;
+    color: pink;
+    padding: 0 3px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputbox input:focus~.label,
+.inputbox input:valid~.label {
+    top: 0;
+    font-size: 13px;
+    background: black;
+    background-blend-mode: lighten;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.inputbox textarea:focus~.label,
+.inputbox textarea:valid~.label {
+    top: 0;
+    font-size: 13px;
+    background: black;
+    background-blend-mode: lighten;
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+}
+
+.btn {
+    width: 9rem;
+    height: 3rem;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contactmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
