@@ -89,7 +89,7 @@ WHAT CLIENT SAY
         />
 
 <p className={style.container01} >
-Perfect location, perfect service, amazing nature views. I enjoyed the stay and would recommend it to everyone.
+Perfect location, perfect service, amazing nature views.I enjoyed the stay and would recommend it to everyone.
 </p>
 </div>
 <div className={style.container052}>
@@ -118,7 +118,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam libero illo 
 repell endus!
 </p>
 </div>
@@ -160,7 +160,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam  libero illo 
 repell endus!
 </p>
 </div>
@@ -195,8 +195,8 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
-repell endus!
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam libero illo 
+repell endus
 </p>
 </div>
 <div className={style.container052}>
@@ -231,7 +231,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam libero illo 
 repell endus!
 </p>
 </div>
@@ -265,7 +265,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam libero illo 
 repell endus!
 </p>
 </div>
@@ -299,7 +299,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam  libero illo 
 repell endus!
 </p>
 </div>
@@ -333,7 +333,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam  libero illo 
 repell endus!
 </p>
 </div>
@@ -367,7 +367,7 @@ CEO & Founder
         />
 
 <p className={style.container01} >
-Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam  libero illo 
 repell endus!
 </p>
 </div>

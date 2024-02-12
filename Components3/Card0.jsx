@@ -1,74 +1,143 @@
+import React from "react";
+
 import { motion } from "framer-motion";
 import { useState } from "react";
+import style from "@/styles/Wishlistpage/cards3.module.css";
 
-import cstyle  from "../styles/Card0.module.css";
+const Cards3=()=>{
+    const [flag, setFlag] = useState({
+        years: false,
+        property: false,
+        realtor: false,
+      });
+      const [animeflag, setAnimeFlag] = useState(false);
+      const variant = {
+        hidden: {
+          opacity: 0,
+        },
+        animate: {
+          opacity: 1,
+          repeatCount: 0,
+          transition: {
+            duration: 0.2,
+            repeatCount: 0,
+            staggerChildren: 0.1,
+            repeat: 0,
+          },
+        },
+      };
+      const childVariant = {
+        hidden: {
+          opacity: 0,
+          y: "10rem",
+        },
+        animate: {
+          opacity: 1,
+          y: "0rem",
+          repeatCount: 0,
+          transition: {
+            type: "spring",
+            stiffness: 150,
+            damping: 12,
+            duration: 0.1,
+            repeat: 0,
+          },
+        },
+      };
+    
+    return (
+        <>
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
+        <motion.div className={style.wishlistpics}
+        onViewportEnter={() => {
+            setAnimeFlag(true);
+          }}
+          variants={variant}
+          initial={"hidden"}
+          animate={animeflag ? "animate" : "hidden"}
+          whileInView={{ repeatCount: 0 }}>
 
-import "swiper/css";
-import "swiper/css/pagination";
+            <div className={style.wishliststyling}>
 
+            <motion.img
+          src="/g.jpg"
+          alt="About"
+          className={style.house}
+          variants={childVariant}
+         
+        />
 
-
-
-const Card0 = (props) => {
-  const [cardhead, setCardHead] = useState(false);
-    const [cardflag, setCardFlag] = useState(false);
-
-  const cardParent = {
-    hidden: {
-      opacity: 0,
-    },
-    animate: {
-      opacity: 1,
-      transition: {
-        duration: 0.2,
-        staggerChildren: 0.2,
-        repeat: 0,
-      },
-    },
-  };
-
-  const cardChild = {
-    hidden: {
-      opacity: 0,
-      y: "5rem",
-    },
-    animate: {
-      opacity: 1,
-      y: "0rem",
-      transition: {
-        type: "spring",
-        stiffness: 150,
-        duration: 0.15,
-        damping: 13,
-        repeat: 0,
-      },
-    },
-  };
-
-
-return ( 
-  <>
-  
-
- 
-      
-            
-
-      
-     
-</>
-              
-)
-                  
-
-                  }
-           
-
-
+            </div>
 
 
- 
-export default Card0;
+            <div className={style.wishliststyling}>
+
+<motion.img
+src="/hero.jpg"
+alt="About"
+className={style.house}
+variants={childVariant}
+
+/>
+
+</div>
+
+
+
+
+
+<div className={style.wishliststyling}>
+
+<motion.img
+src="/hero.jpg"
+alt="About"
+className={style.house}
+variants={childVariant}
+
+/>
+
+</div>
+
+
+
+
+<div className={style.wishliststyling}>
+
+<motion.img
+src="/hero.jpg"
+alt="About"
+className={style.house}
+variants={childVariant}
+
+/>
+
+</div>
+
+
+
+<div className={style.wishliststyling}>
+
+<motion.img
+src="/hero.jpg"
+alt="About"
+className={style.house}
+variants={childVariant}
+
+/>
+
+</div>
+
+
+
+
+
+        </motion.div>
+
+        </>
+    )
+
+}
+
+
+
+export default Cards3;
