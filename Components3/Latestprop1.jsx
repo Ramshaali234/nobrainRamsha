@@ -51,18 +51,21 @@ WHAT CLIENT SAY
             slidesPerView: 1,
             spaceBetween: 10,
           },
-          401: {
-            slidesPerView: 2,
+       
+      500:{
+        slidesPerView: 2,
             spaceBetween: 20,
-          },
-          500: {
-            slidesPerView: 4,
+      },
+          600: {
+            slidesPerView: 2,
             spaceBetween: 30,
           },
-          600: {
-            slidesPerView: 5,
-            spaceBetween: 50,
-          }
+
+800:{
+        slidesPerView: 3,
+        spaceBetween: 30,
+},
+
       
         }}
 
