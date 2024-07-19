@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+
+}
+.text
+{
+  font-size: 36px;
+
+}
+.para{
+    padding-left: 80px;
+    width:580px;
+    font-size: 28px;
+    color: #E5BF4A;
+}
+.para2{
+    color: white;
+    width:600px;
+    padding-left: 80px;
+}
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs{
+   padding-left: 40px;
+}

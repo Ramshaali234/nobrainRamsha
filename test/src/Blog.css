@@ -1,0 +1,54 @@
+.flexcontainers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flexitems {
+font-size: 40px;
+}
+.col-md-8{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.blogbody{
+    display: flex;
+
+    align-items: center;
+
+   flex-direction:row;
+}
+.img-fluid{
+    height: 280px;
+   
+}
+.cardtitle{
+    width:300px;
+    color: #E5BF4A;
+}
+.cardtext{
+    width:300px ;
+}
+.browse-btn {
+    color: #E5BF4A !important;
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:1s;
+}
+
+.browse-btn::before {
+    position: absolute;
+    content: "";
+    background: #E5BF4A;
+    width: 100%;
+    height: 2px;
+    bottom: -10px;
+}
+.browse-btn:hover{
+    transform: scaleX(1.3);
+}
